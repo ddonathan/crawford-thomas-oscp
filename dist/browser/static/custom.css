@@ -1,0 +1,25 @@
+
+/* Hide powered by Bullhorn */
+.credits {
+    display: none !important;
+}
+
+/* Remove icon and text title */
+.header-icon {
+	display: none !important;
+}
+.header-titles h1 {	
+    display: none ;
+	visibility: hidden;
+}
+
+/* Replace text with logo */
+.novo-header section {
+	background : url("https://www.crawfordthomas.com/wp-content/uploads/watermark.png") no-repeat 0 0 !important;
+}
+
+/* Change background color of header and sidebar */
+.novo-header section,
+app-sidebar {
+	background-color: #EFF1F2 !important;
+}	
